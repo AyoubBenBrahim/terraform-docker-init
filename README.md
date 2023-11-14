@@ -1,3 +1,4 @@
+
 🔻 terraform init
 
 🔻 terraform apply -> yes
