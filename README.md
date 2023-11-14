@@ -1,10 +1,10 @@
-terraform init
+🔻 terraform init
 
-terraform apply -> yes
+🔻 terraform apply -> yes
 
-docker ps
+🔻 docker ps
 
-terraform destroy
+🔻 terraform destroy
 
 ```
 Error: Error pinging Docker server: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
