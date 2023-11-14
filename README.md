@@ -1,22 +1,25 @@
 terraform init
+
 terraform apply -> yes
+
 docker ps
+
 terraform destroy
 
-
+```
 Error: Error pinging Docker server: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
 │
 │   with provider["registry.terraform.io/kreuzwerker/docker"],
 │   on main.tf line 43, in provider "docker":
 │   43: provider "docker" {}
-
+```
 
 docker context ls
-
+```
 provider "docker" {
     host = "unix:///Users/my_login/.docker/run/docker.sock"
 }
-
+```
 export TF_VAR_login="my_login"
 
 `host = "unix:///Users/${var.login}/.docker/run/docker.sock"`
