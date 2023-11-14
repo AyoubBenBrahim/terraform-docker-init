@@ -21,7 +21,7 @@ provider "docker" {
     host = "unix:///Users/my_login/.docker/run/docker.sock"
 }
 ```
-export TF_VAR_login="my_login"
+`export TF_VAR_login="my_login"`
 
 `host = "unix:///Users/${var.login}/.docker/run/docker.sock"`
 
