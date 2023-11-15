@@ -1,6 +1,8 @@
 
 🔻 terraform init
 
+terraform plan
+
 🔻 terraform apply -> yes
 
 🔻 docker ps
