@@ -1,7 +1,7 @@
 
 🔻 terraform init
 
-terraform plan
+🔻 terraform plan
 
 🔻 terraform apply -> yes
 
