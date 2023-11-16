@@ -3,7 +3,7 @@
 
 🔻 terraform plan
 
-🔻 terraform apply -> yes
+🔻 terraform apply -> yes or terraform apply -auto-approve
 
 🔻 docker ps
 
